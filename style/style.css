@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: content-box;
+}
+
+header {
+  background-color: black;
+  height: 35%;
+}
+header div h1 {
+  color: white;
+  text-shadow: 1px 1px 3px white;
+  text-align: center;
+  font-family: "Passion One", cursive;
+  font-size: 8vw;
+  padding-top: 40px;
+}
+header div p {
+  color: white;
+  text-shadow: 0.5px 0.5px 1px white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+header div p a {
+  text-decoration: none;
+  color: white;
+}
+header div p a:hover {
+  text-decoration: underline;
+}
+
+main .normal {
+  font-family: cursive;
+  font-size: 3.2vw;
+  font-style: italic;
+  text-shadow: 0.5px 0.5px 1px white;
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-bottom: 70px;
+  line-height: 2em;
+}
+main .imagem {
+  font-family: cursive;
+  font-size: 3.2vw;
+  font-style: italic;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-bottom: 70px;
+  line-height: 2em;
+}
+main .imagem p {
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 50%;
+  padding-left: 5px;
+}
+main #img1 {
+  background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg);
+  background-attachment: fixed;
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #img2 {
+  background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  color: white;
+  height: 5vh;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
